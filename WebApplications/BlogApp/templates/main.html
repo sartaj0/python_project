@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="main-page">
+	<div class="banner">
+		<img src="{{ url_for('static', filename='images/Banner1.png') }}" class="img-fluid">
+		<form class="search-wrapper" acion="", method="get">
+			<input class="border-bottom" type="search" placeholder="Search.." enter />
+			<input type="submit" hidden />
+		</form>
+	</div>
+</div>
+
+{% endblock %}
